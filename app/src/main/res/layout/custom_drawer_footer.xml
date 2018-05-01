@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/txt_white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/imageView10"
+        android:layout_marginBottom="8dp"
+        android:src="@color/hor_line"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/dw_settings"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:textColor="@color/txt_line_1"
+        android:text="Settings"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/dw_impressum"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="#FF444444"
+        android:text="Impressum"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp" />
+
+    <TextView
+        android:id="@+id/dw_help"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="#FF444444"
+        android:text="Help"
+        android:textSize="17sp"
+        android:gravity="center_vertical"
+        android:paddingLeft="16dp" />
+</LinearLayout>

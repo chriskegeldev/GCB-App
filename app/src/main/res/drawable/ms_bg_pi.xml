@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- dropshadow -->
+    <item>
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#10374349" />
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#20374349" />
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+        </shape>
+    </item>
+
+
+    <item  android:bottom="2dp">
+        <!-- --><bitmap android:src="@drawable/bg_img_6_2"
+            android:scaleType="center"/>
+        <shape android:shape="rectangle"
+            android:dither="true">
+
+            <corners android:radius="3dp" />
+
+            <!--<solid android:color="#ff27773b"/> @color/ms_bg_pi
+
+             <padding android:bottom="8dp"
+                 android:left="8dp"
+                 android:right="8dp"
+                 android:top="8dp" />
+             -->
+        </shape>
+    </item>
+    <!-- <item  android:background="@drawable/bg_img_2"/>  -->
+</layer-list>

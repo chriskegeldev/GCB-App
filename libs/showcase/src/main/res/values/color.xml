@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SchowCaseView -->
+    <color name="sv_bg_blue">#df1459cf</color> <!-- old: DF1451A3 -->
+</resources>

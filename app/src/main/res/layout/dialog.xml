@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7A7A7A"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Info"
+        android:id="@+id/textViewInfo"
+        android:textSize="34sp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:textSize="16sp"
+        android:paddingTop="10dp"
+        android:textColor="@color/txt_line_1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="0dp"
+        android:layout_below="@+id/lblLuft"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="CLOSE"
+        android:id="@+id/declineButton"
+        android:singleLine="false"
+        android:background="@android:color/transparent"
+        android:textColor="@color/txt_blau"
+        android:textSize="16dp"
+        android:layout_gravity="right"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp" />
+</LinearLayout>

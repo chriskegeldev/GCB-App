@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="DGV Ausweis informationen - HCP ">
+        <EditTextPreference
+            android:key="ausweis_nr"
+            android:title="Ausweis Nr."
+            android:summary="Deine Ausweis-Nr."
+            android:dialogTitle="Ausweis-Nr. eingeben"/>
+        <EditTextPreference
+            android:key="service_nr"
+            android:title="Service Nr."
+            android:summary="Deine Service-Nr."
+            android:dialogTitle="Service-Nr. eingeben"/>
+    </PreferenceCategory>
+</PreferenceScreen>

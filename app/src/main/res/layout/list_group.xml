@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/ms_bg_pi"
+    android:padding="16dp"
+    android:backgroundTint="#22000000"
+    android:backgroundTintMode="src_over"> <!-- -->
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#ffFFFFFF"
+        android:text="Datum"
+        android:id="@+id/lblDatum"
+        android:textSize="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:padding="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffFFFFFF"
+        android:text="Tag"
+        android:id="@+id/lblTag"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="11dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-4dp"
+        android:layout_below="@+id/lblDatum"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="78dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:id="@+id/ll_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:id="@+id/lblMessage"
+            android:layout_toEndOf="@+id/lblDatum"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="klasse"
+            android:id="@+id/lblKlasse"
+            android:layout_alignTop="@+id/lblDatum"
+            android:layout_alignLeft="@+id/lblMessage"
+            android:layout_alignStart="@+id/lblMessage"
+            android:textSize="16sp"
+            android:textColor="@color/txt_white"
+            android:padding="5dp"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+            android:layout_marginTop="-10dp" />
+    </LinearLayout>
+
+</RelativeLayout>

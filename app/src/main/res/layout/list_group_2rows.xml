@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@color/txt_white">
+
+    <TextView
+        android:id="@+id/lblHeader1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_line_1"
+        android:text="lblHeader1"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="lblInfo1"
+        android:id="@+id/lblInfo1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14dp"
+        android:layout_below="@+id/lblHeader1"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignLeft="@+id/lblHeader1" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:id="@+id/imageView2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lblInfo1"
+        android:background="@color/txt_line_2" />
+</RelativeLayout>

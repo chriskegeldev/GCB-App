@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Text -->
+    <color name="txt_white">#FFFFFF</color>
+    <color name="txt_red">#AA3830</color>
+    <color name="txt_line_1">#ff4c504f</color>
+    <color name="txt_line_2">#a4a4a4</color>
+    <color name="txt_open">#2BBA49</color>
+    <color name="txt_closed">#D9322F</color>
+    <color name="txt_blau">#217FFF</color>
+    <color name="txt_black">#000000</color>
+    <color name="txt_drawer">#FF444444</color>
+    <color name="txt_drawer_bg">#ffd8d8d8</color>
+<!-- WetterFragment-->
+    <color name="circle">#FFC107</color>
+<!-- InfoFragment -->
+    <color name="ms_bg_pi">#78909C</color> <!-- old:#1976D2 #CFD8DC   text old: #7a7a7a -->
+    <color name="ms_bg_dr">#757575</color> <!-- old:#43A047  -->
+    <color name="ms_bg_s">#546E7A</color>  <!-- old:#039BE5  -->
+<!-- Actionbar Lollipop -->
+    <color name="colorPrimary">#ff1ea366</color>      <!-- old:#ff34ab66, #FF199B5F -->
+    <color name="colorPrimaryDark">#ff267943</color>  <!-- old:#ff149608, #00695C   -->
+    <color name="colorSecondary">@color/material_deep_teal_200</color>
+    <color name="colorSecondaryDark">@color/material_deep_teal_500</color>
+    <color name="windowBackgroundColor">#333333</color>
+    <color name="black_translucent">#80000000</color>
+    <color name="colorAccent">#FFC107</color>      <!-- old:#FF199B5F -->
+<!-- Card -->
+    <color name="transparent">#00000000</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+<!-- Sonstiges -->
+    <color name="circle_bg">#78909C</color>
+    <color name="drawer_bg_bg">#FF34AB66</color> <!-- old:43A047 4CAF50 ff39749c -->
+<!-- Sonstiges -->
+    <color name="dunkel_grun">#1e7438</color>
+    <color name="scorecard_bg">#7F7F7F</color>
+    <color name="hor_line">#B7B7B7</color>
+    <color name="bg_grau">#D3D6DB</color>
+    <color name="bg_tabs">#D3D6DB</color>
+    <color name="orange_1">#ffc107</color>
+    <color name="tab_title">#1b9b62</color>
+    <color name="ab_act_back">#8bc34a</color>
+</resources>

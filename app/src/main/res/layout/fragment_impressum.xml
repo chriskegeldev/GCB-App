@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2"
+    android:background="@color/txt_white">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/txt_white">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About"
+            android:id="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Erstellt von Christopher Kegel"
+            android:id="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Kontakt"
+            android:id="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/textView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Web"
+            android:id="@+id/textView6"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView5"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Telefon:"
+            android:id="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView6"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Mail:"
+            android:id="@+id/textView9"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView8"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="www.christopherkegel.com"
+            android:id="@+id/textView10"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/textView5"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:layout_toRightOf="@+id/textView8"
+            android:autoLink="web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="015161443118"
+            android:id="@+id/textView11"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/textView6"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:layout_toRightOf="@+id/textView8"
+            android:autoLink="phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="mailto@christopherkegel.com"
+            android:id="@+id/textView12"
+            android:layout_alignParentLeft="false"
+            android:layout_below="@+id/textView8"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:layout_toRightOf="@+id/textView8"
+            android:autoLink="email" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sonstiges"
+            android:id="@+id/textView13"
+            android:layout_alignParentLeft="true"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/textView9" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="www.golfclub-badrappenau.de"
+            android:id="@+id/textView14"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView13"
+            android:textColor="#ff37404b"
+            android:textSize="16dp"
+            android:padding="16dp"
+            android:autoLink="web" />
+    </RelativeLayout>
+    </ScrollView>
+
+

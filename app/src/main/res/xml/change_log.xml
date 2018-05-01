@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Log xmlns:android="http://schemas.android.com/apk/res/android">
+    <entry>
+        <release>
+            Release: 1.0
+        </release>
+        <date>
+            03.06.2015
+        </date>
+        <summery>
+            Änderungen an der Oberfläche
+        </summery>
+        <liste>
+            <item>
+                Hauptfarbe dunkler
+            </item>
+            <item>
+                Hauptfarbe dunkler
+            </item>
+            <item>
+                Hauptfarbe dunkler
+            </item>
+        </liste>
+    </entry>
+</Log>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!-- -->
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/txt_white">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MainContainerHCP"
+        android:divider="#ff878787"
+        android:padding="0dp"> <!--   xmlns:android="http://schemas.android.com/apk/res/android" -->
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView4"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="false"
+            android:src="@drawable/bg_img_5_port" />
+<!-- android:textStyle="bold" -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HCPCard"
+        android:visibility="invisible"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ms_bg_hcp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:padding="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-thin"
+                android:text="54"
+                android:id="@+id/lbl_HCP_HCP2"
+                android:textSize="80dp"
+                android:textColor="@color/txt_white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:textStyle="normal"
+                android:layout_margin="0dp"
+                android:padding="0dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vor &amp; Nachname "
+                android:fontFamily="sans-serif-thin"
+                android:id="@+id/lbl_Name_HCP2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:textSize="30dp"
+                android:textColor="@color/txt_white"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/lbl_HCP_HCP2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heimatclub"
+                android:id="@+id/lbl_Club_HCP2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:textSize="16dp"
+                android:textColor="@color/txt_line_2"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/lbl_Name_HCP2" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout><!--   -->

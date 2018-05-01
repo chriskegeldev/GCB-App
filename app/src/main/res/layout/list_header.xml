@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/img_Header_Banner"
+        android:scaleType="centerCrop"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/bg_img_5_port" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Werbung"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/img_Header_Banner"
+        android:layout_alignLeft="@+id/img_Header_Banner"
+        android:layout_margin="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- dropshadow -->
+    <item>
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#10003D13" />
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#20003D13" />
+            <padding android:top="1dp" android:right="1dp" android:bottom="1dp" android:left="1dp" />
+        </shape>
+    </item>
+
+
+
+
+
+    <item>
+        <shape>
+            <corners android:radius="3dp" />
+            <solid android:color="#ff206434" />
+            <padding android:bottom="8dp"
+                android:left="8dp"
+                android:right="8dp"
+                android:top="8dp" />
+        </shape>
+    </item>
+</layer-list>
+
+<!--  android:bottom="2dp" android:shape="rectangle"
+            android:dither="true" -->

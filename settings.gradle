@@ -1,0 +1,3 @@
+include ':app', ':library'
+include ':libs:showcase'
+include ':libs:preferencefragment'

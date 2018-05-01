@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@color/txt_white"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/lblIcon"
+        android:src="@drawable/wetter_w"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_bg" />
+
+    <TextView
+        android:id="@+id/lblHeader2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/txt_black"
+        android:text="lblHeader2"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/lblIcon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="lblInfo2"
+        android:id="@+id/lblInfo2"
+        android:layout_toRightOf="@+id/lblIcon"
+        android:textColor="@color/txt_line_1"
+        android:textSize="14dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/lblHeader2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/lblIcon"
+        android:layout_toRightOf="@+id/lblIcon"
+        android:background="@color/txt_line_2" />
+</RelativeLayout>

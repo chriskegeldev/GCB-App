@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff000000"
+        android:text="Datum"
+        android:id="@+id/lblDatum"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:padding="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff000000"
+        android:text="Tag"
+        android:id="@+id/lblTag"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="false"
+        android:layout_marginLeft="11dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="-4dp"
+        android:layout_below="@+id/lblDatum"
+        android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ms_bg_s"
+        android:layout_marginLeft="72dp"
+        android:layout_alignParentTop="true"
+        android:padding="4dp"
+        android:layout_marginTop="4dp"
+        android:id="@+id/ll_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperatur"
+            android:id="@+id/lblTemp"
+            android:layout_toEndOf="@+id/lblDatum"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:textColor="@color/txt_white"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:id="@+id/lblDetails"
+            android:layout_alignTop="@+id/lblDatum"
+            android:layout_alignLeft="@+id/lblTemp"
+            android:layout_alignStart="@+id/lblTemp"
+            android:textSize="16sp"
+            android:textColor="@color/txt_line_2"
+            android:padding="5dp"
+            android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+            android:layout_marginTop="-10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind Anzeige"
+                android:id="@+id/lblWind"
+                android:textSize="16sp"
+                android:textColor="@color/txt_white"
+                android:padding="5dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wind"
+                android:id="@+id/txtWind"
+                android:textSize="14sp"
+                android:textColor="@color/txt_line_2"
+                android:padding="5dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:layout_marginTop="-10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="false"
+                android:layout_below="@+id/lblWind" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luft anzeige"
+                android:id="@+id/lblLuft"
+                android:textSize="16sp"
+                android:textColor="@color/txt_white"
+                android:padding="5dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="false"
+                android:textStyle="bold"
+                android:layout_alignLeft="@+id/txtLuft" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luftfeuchtigkeit"
+                android:id="@+id/txtLuft"
+                android:textSize="14sp"
+                android:textColor="@color/txt_line_2"
+                android:padding="5dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                android:layout_marginTop="-10dp"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/lblLuft"
+                android:singleLine="false"
+                android:minWidth="25dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
